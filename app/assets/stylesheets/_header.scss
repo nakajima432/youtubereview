@@ -1,0 +1,88 @@
+.header {
+  background-color: #ff6666;
+  height: 50px;
+  width: 100%;
+  padding: 13px 250px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  &__title-lists {
+    display: flex;
+    .title-list {
+      .home-link {
+        display: flex;
+        text-decoration: none;
+        .youtube-icon {
+          font-size: 30px;
+          color: white;
+          margin-right: 10px;
+          line-height: 25px;
+        }
+        .title {
+          font-size: 28px;
+          line-height: 33px;
+          color: white;
+          font-weight: bold;
+          font-family: fantasy;
+          margin-right: 10px;
+        }
+      }
+      .sub-title {
+        font-size: 14px;
+        color: white;
+        line-height: 26px;
+        // text-align: center;
+        font-family: arial;
+        font-weight: bold;
+      }
+    }
+  }
+  .form {
+    height: 20px;
+    width: 30%;
+    background-color: white;
+  }
+  &__lists {
+    display: flex;
+    .list {
+      .icon {
+      font-size: 20px;
+      color: white;
+      margin-left: 10px;
+      }
+      .user-name{
+        margin-left: 10px;
+        color: white;
+        font-weight: bold;
+        font-family: arial;
+        text-decoration: none
+      }
+    }
+  }
+}
+.tag-header {
+  // margin: 30px 300px 0 300px;
+  height: 30px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  border-bottom: 1px solid;
+  border-color: #dddddd;
+  // padding: 15px 0;
+  .genre-tags {
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    margin: 0 auto;
+    .tag {
+      line-height: 30px;
+      font-family: arial;
+      font-size: 14px;
+      .link {
+        text-decoration-color: #999999;
+        color: gray;
+      }
+    }
+  }
+}
