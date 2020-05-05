@@ -1,0 +1,24 @@
+.header
+  %ul.header__title-lists
+    %li.title-list
+      = link_to '#', class: "home-link" do
+        = icon('fab', 'youtube',class: 'youtube-icon')
+        %p.title
+          YOUREVI
+    %li.title-list
+      %p.sub-title
+        \- ユーレビ -
+        -# %br 
+        -# YouTuberレビュー
+  .form
+    -# = form_with url: users_path do |f|
+  %ul.header__lists
+    %li.list
+      = link_to '#' do
+        = icon('fas', 'edit',class: 'icon')
+    %li.list
+      = link_to '#' do
+        = icon('fas', 'user',class: 'icon')
+    %li.list
+      = link_to '#', class: "user-name" do
+        ユーザー名
