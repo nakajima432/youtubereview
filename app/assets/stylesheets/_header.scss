@@ -46,18 +46,36 @@
   &__lists {
     display: flex;
     .list {
-      .icon {
-      font-size: 20px;
+      display: flex;
+      .post {
+        display: flex;
+        text-decoration: none;
+        .post-icon {
+          font-size: 20px;
+          color: white;
+          margin-left: 10px;
+        }
+        // .icon-message {
+        //   text-decoration: none;
+        //   color: white;
+        // } 
+      }
+      .my-page {
+        display: flex;
+        text-decoration: none;
+        .user-icon {
+          margin-left: 20px;
+          color: white;
+          // font-weight: bold;
+          // font-family: arial;
+          font-size: 20px;
+        }
+      }
+    }
+    .list p {
+      text-decoration: none;
       color: white;
-      margin-left: 10px;
-      }
-      .user-name{
-        margin-left: 10px;
-        color: white;
-        font-weight: bold;
-        font-family: arial;
-        text-decoration: none
-      }
+      margin-left: 5px;
     }
   }
 }

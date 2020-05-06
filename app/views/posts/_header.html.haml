@@ -14,11 +14,13 @@
     -# = form_with url: users_path do |f|
   %ul.header__lists
     %li.list
-      = link_to '#' do
-        = icon('fas', 'edit',class: 'icon')
+      %a.post{href: "#"}
+        = icon('fas', 'edit',class: 'post-icon')
+        %p 投稿
     %li.list
-      = link_to '#' do
-        = icon('fas', 'user',class: 'icon')
-    %li.list
-      = link_to '#', class: "user-name" do
-        ユーザー名
+      %a.my-page{href: "#"}
+        = icon('fas', 'user',class: 'user-icon')
+        %p ユーザー名
+
+-# %li.tag
+  -#       %a.link{href: "#"} #投資
